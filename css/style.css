@@ -168,6 +168,7 @@ img {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  padding: 0 1rem;
 }
 .nav__logo,
 .nav__toogle {
@@ -513,7 +514,7 @@ img {
 
 /* ================= Media Queries =============== */
 /* ======== For small Devices ======== */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -534,7 +535,7 @@ img {
     font-size: var(--normal-font-size);
   }
   .portfolio__button {
-    padding: 2px 7px;
+    padding: 1px 7px;
     font-size: var(--smaller-font-size);
     margin-right: var(--mb-0-25);
   }
